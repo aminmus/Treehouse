@@ -33,20 +33,32 @@ main a:visited {
 
 /* Change the background color of the submit button when active */
 
-
+input[type="submit"]:active {
+background-color: pink;
+}
 
 /* Give the text field a blue border upon focus */
 
-
+input[type="text"]:focus {
+    border: 1px solid blue;
+}
 
 /* Give the 'span' tag in the footer a meaningful class name and reduce its font size */
 
-
+.footer-copyright {
+    font-size: 12px;
+}
 
 /* Give the 'img' tag in the header an ID and set its width to 190px */
 
-
+#logo-img {
+    width: 190px;
+}
 
 /* Target all heading tags on the page and set their font family to 'Bree Serif', serif */
 
-
+h1,
+h2,
+h3 {
+    font-family: Bree Serif, serif;
+}
